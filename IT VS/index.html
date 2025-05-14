@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel Aderemi Ige</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background: #f9f9f9;
+      color: #333;
+    
+    
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: #222;
+      color: white;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+      /* background-color: #12df10; */
+    }
+
+    .experience-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .experience-cards .card {
+      flex: 1 1 calc(33.333% - 1rem); 
+      min-width: 250px;
+    }
+  
+
+/* .carousel-wrapper {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+  max-width: 100%;
+  max-height: 300px;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+
+.carousel-nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.carousel-nav label {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+#img1:checked ~ .carousel-wrapper .carousel {
+  transform: translateX(0%);
+}
+#img2:checked ~ .carousel-wrapper .carousel {
+  transform: translateX(-100%);
+}
+#img3:checked ~ .carousel-wrapper .carousel {
+  transform: translateX(-200%);
+}
+#img4:checked ~ .carousel-wrapper .carousel {
+  transform: translateX(-300%);
+}
+#img5:checked ~ .carousel-wrapper .carousel {
+  transform: translateX(-400%);
+} */
+.gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Samuel Aderemi Ige</h1>
+    <p>Front-End Developer | Video Editor | Tech Enthusiast</p>
+  </header>
+  <div class="container">
+    <section>
+      <h2>Profile</h2>
+      <div class="card">
+        <p>I'm a forward thinker, a problem-solver, and very fond of technology. As the only male child in a family of two, I’ve developed tenacity and resilience. I enjoy politics, music, and working with computers. I'm a free spirit who cherishes life daily.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="card">
+        <ul>
+          <li>Front End Coding</li>
+          <li>Video Editing</li>
+          <li>Graphics Design</li>
+          <li>Problem-Solving</li>
+          <li>Computer Literacy</li>
+          <li>Photography</li>
+        </ul>
+      </div>
+    </section>
+
+   <section>
+  <h2>Experience</h2>
+  <div class="experience-cards">
+    <div class="card">
+      <h3>Volunteer - Teens World Empowerment (2020 - Present)</h3>
+      <p>Helping communities across the state by teaching tech, mentoring youth, and providing funding support.</p>
+    </div>
+    <div class="card">
+      <h3>Frontend Developer - Edukarma (2020 - 2021)</h3>
+      <p>Turned UI/UX designs into code using HTML5, CSS3, JavaScript, and Bootstrap for an educational website.</p>
+    </div>
+    <div class="card">
+      <h3>Video Editor - gavi, Zeve (2020)</h3>
+      <p>Created trailers, slideshows, and 3D animations to empower the female child through branding.</p>
+    </div>
+  </div>
+</section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="card">
+        <p>Ifako International Secondary School (2017 - 2020)</p>
+      </div>
+    </section>
+    <section>
+        <h2>Gallery</h2>
+        <div class="gallery">
+          <img src="img 1.jpg" alt="Samuel and friends 1">
+          <img src="img 2.jpg" alt="Samuel and friends 2">
+          <img src="img 3.jpg" alt="Samuel and friends 3">
+          <img src="img 4.jpg" alt="Samuel and friends 4">
+          <img src="img 5.jpg" alt="Samuel and friends 5">
+        </div>
+      </section>
+    </div>
+        
+
+
+  
+</body>
+</html>
